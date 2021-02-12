@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1 - Expert systems
 > This project is an expert-system which can tell if a certain creature is a Loonie or a tourist.
 
 <!-- ## Table of contents
