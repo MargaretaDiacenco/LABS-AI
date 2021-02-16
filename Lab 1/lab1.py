@@ -23,7 +23,7 @@ def initial_question(i):
 def record_input():
     global list_of_creatures
     global creature_input
-    creature_input = input()
+    creature_input = input() #user input
     inputs.append(creature_input)
     copy_list_of_creatures = list_of_creatures.copy()
     new_list = []
@@ -34,7 +34,7 @@ def record_input():
         for j in range(len(attributes)):
             if result == copy_list_of_creatures[i][j]:
                 new_list.append(list_of_creatures[i])
-                possible_creatures.append(list_of_creatures[i][-1]) #append to the back of the list, to the last item
+                possible_creatures.append(list_of_creatures[i][-1]) #append to the to the last item of the list
 
     if len(possible_creatures) > 1:
         print("INTERMEDIATE RESULTS: I narrowed my data down to the following creatures: " + creature_input + " " + attributes[rn])
@@ -42,6 +42,7 @@ def record_input():
     list_of_creatures = new_list
     counter()
 
+#adds creatures to the list, if the initial attribut is ambiguous
 def counter():
     for j in range(len(list_of_creatures)):
         for i in range(len(attributes)):
@@ -77,6 +78,8 @@ def q_a(i):
     initial_question(i)
     record_input()
 
+#asks until is sure
+#the order of the questions is proportional to the attribute's sum
 def interrogation():
     for i in range(1, len(attributes)):
         q_a(i)
