@@ -4,12 +4,12 @@ import random
 
 tourist1 = [0, 'two', 'eight', 'human', 'combined', 'arachnimorph']
 tourist2 = [0, 'two', 'four', 'animal', 'oval', 'cowl']
-tourist3 = [0, 'one', 'none', 'none', 'sphere', 'floating_eyeball']
+tourist3 = [0, 'one', 'cipher', 'none', 'sphere', 'floating_eyeball']
 tourist4 = [0, 'two', 'four', 'human', 'oval', 'gifany']
-tourist5 = [0, 'none', 'twelve', 'animal', 'combined', 'multibear']
+tourist5 = [0, 'zero', 'twelve', 'animal', 'combined', 'multibear']
 tourist6 = [0, 'two', 'four', 'none', 'oval', 'time_baby']
-tourist7 = [0, 'none', 'two', 'human', 'hexagon', 'hectorgon']
-alien = [0, 'none', 'two', 'animal', 'combined', 'loonie']
+tourist7 = [0, 'zero', 'two', 'human', 'hexagon', 'hectorgon']
+alien = [0, 'zero', 'two', 'animal', 'combined', 'loonie']
 
 attributes = ['sum', 'nr_of_eyes', 'nr_of_limbs', 'hair_type', 'body_shape']
 list_of_creatures = [tourist1, tourist2, tourist3, tourist4, tourist5, tourist6, tourist7, alien]
